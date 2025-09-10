@@ -9,6 +9,7 @@ export default function Home() {
   return (
     <main>
       <HeroSection />
+      <SearchSection /> 
       <Stats />
       <WorldMap />
     </main>
