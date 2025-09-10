@@ -1,15 +1,15 @@
 // src/app/page.js
 
-// We'll create these components in the next step
 import HeroSection from '../components/HeroSection';
 import Stats from '../components/Stats';
 import WorldMap from '../components/WorldMap';
+import SearchSection from '../components/SearchSection'; // <-- This was the missing line
 
 export default function Home() {
   return (
     <main>
       <HeroSection />
-      <SearchSection /> 
+      <SearchSection />
       <Stats />
       <WorldMap />
     </main>
